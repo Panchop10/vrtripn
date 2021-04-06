@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.VRTripn_New.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\IsiaqGbadamosi\Documents\Documents\Unity_Projects\VRTripn_New\.idea\.idea.VRTripn_New\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

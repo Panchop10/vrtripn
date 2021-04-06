@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "255259409682",
+    "firebase_url": "https://vr-tripn-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vr-tripn",
+    "storage_bucket": "vr-tripn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255259409682:android:d0de3607f114140aa647cb",
+        "android_client_info": {
+          "package_name": "com.ccttest.vrtripn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255259409682-41kihahk5etu8e98n19ab9m6oiq0rced.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoOOJ-jBpVqpYrNHTNL1C4Z1PZr-0VYqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255259409682-41kihahk5etu8e98n19ab9m6oiq0rced.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

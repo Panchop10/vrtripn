@@ -1,6 +1,5 @@
 sceneSetups:
-- path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.3.0/Hello Cardboard/Scenes/Scene
-    3.unity
+- path: Assets/Scenes/Login.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

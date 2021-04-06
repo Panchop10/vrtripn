@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="firebase_database_url" translatable="false">https://vr-tripn-default-rtdb.europe-west1.firebasedatabase.app</string>
+  <string name="gcm_defaultSenderId" translatable="false">255259409682</string>
+  <string name="google_storage_bucket" translatable="false">vr-tripn.appspot.com</string>
+  <string name="project_id" translatable="false">vr-tripn</string>
+  <string name="google_api_key" translatable="false">AIzaSyAoOOJ-jBpVqpYrNHTNL1C4Z1PZr-0VYqI</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAoOOJ-jBpVqpYrNHTNL1C4Z1PZr-0VYqI</string>
+  <string name="google_app_id" translatable="false">1:255259409682:android:d0de3607f114140aa647cb</string>
+  <string name="default_web_client_id" translatable="false">255259409682-41kihahk5etu8e98n19ab9m6oiq0rced.apps.googleusercontent.com</string>
+</resources>
