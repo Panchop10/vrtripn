@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Vimeo/Scenes/360Player.unity
     guid: 5a9caef1732ca1947907944bd4c31361
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/360Scene.unity
     guid: 006374c223d57514e8b9a55b0b643796
   m_configObjects: {}

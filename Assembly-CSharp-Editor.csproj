@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1562FFC7-DE57-7554-94F8-C84965E1735A}</ProjectGuid>
+    <ProjectGuid>{B5656943-0327-9DDA-DE0B-0F24C06A5448}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -94,37 +94,37 @@
     <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
     <None Include="Assets\Firebase\Editor\DatabaseDependencies.xml" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -331,55 +331,55 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver_v1.2.165">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.165.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.165.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.165">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.165.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.165.dll</HintPath>
     </Reference>
     <Reference Include="Google.PackageManagerResolver_v1.2.165">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.165.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.165.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl_v1.2.165">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.165.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.165.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Editor">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Analytics">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.App">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Auth">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Database">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Platform">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.TaskExtension">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -744,35 +744,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{2F7625D8-6087-40C1-0579-2E6DF3F832C2}</Project>
+      <Project>{2B78047D-ED30-FCAF-6334-5088F354046E}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Runtime.csproj">
-      <Project>{07B8C64F-30FA-79E8-B90B-FC9093DB2B0E}</Project>
+      <Project>{39BB8519-DD98-74D6-4E06-D3E03B663387}</Project>
       <Name>AVProVideo.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Editor.csproj">
-      <Project>{F943BB91-2C62-59D0-3BAA-496458169DA9}</Project>
+      <Project>{E83E09B6-BD8E-6E3C-56E9-204ACCC24F4F}</Project>
       <Name>AVProVideo.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Demos.csproj">
-      <Project>{1D5345A5-A739-2877-3898-27F298F052F8}</Project>
+      <Project>{84E678F3-5397-D8F3-80E3-AEE1256A73C9}</Project>
       <Name>AVProVideo.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Extensions.UnityUI.csproj">
-      <Project>{BE310A01-B620-260D-6128-67BF9D2CB4F9}</Project>
+      <Project>{8224024C-4B8C-2CE9-BF47-D3DE535E6EF9}</Project>
       <Name>AVProVideo.Extensions.UnityUI</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Extensions.VisualEffectGraph.csproj">
-      <Project>{D905E864-B1A0-0BC2-6AC5-4FB231FC6F67}</Project>
+      <Project>{2734F426-63BD-89EE-F856-3AD0953EFEFE}</Project>
       <Name>AVProVideo.Extensions.VisualEffectGraph</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Extensions.Timeline.csproj">
-      <Project>{90E42AB5-DA42-E320-53A8-062D98C6804D}</Project>
+      <Project>{31DEA97F-AA2C-B465-9E7D-45DA537509ED}</Project>
       <Name>AVProVideo.Extensions.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Extensions.UnityUI.Editor.csproj">
-      <Project>{27326E6C-993D-7496-DB9D-AE1ACBDEB038}</Project>
+      <Project>{FCF92DF3-7CCB-0E22-9AD0-BDBC32EAB411}</Project>
       <Name>AVProVideo.Extensions.UnityUI.Editor</Name>
     </ProjectReference>
   </ItemGroup>
