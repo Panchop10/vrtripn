@@ -185,6 +185,7 @@
     <Compile Include="Assets\Scripts\Firebase\FirebaseLogin.cs" />
     <Compile Include="Assets\Scripts\Firebase\FirebaseRegister.cs" />
     <Compile Include="Assets\Scripts\GotoScene.cs" />
+    <Compile Include="Assets\Scripts\Instructions\InstructionsChangeScene.cs" />
     <Compile Include="Assets\Scripts\LoadMenu.cs" />
     <Compile Include="Assets\Scripts\LoadVideoFirebase.cs" />
     <Compile Include="Assets\Scripts\LoginAction.cs" />

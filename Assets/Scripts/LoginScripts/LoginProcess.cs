@@ -54,6 +54,6 @@ public class LoginProcess : MonoBehaviour
     }
 
     public void LoginSucess(){
-        SceneManager.LoadSceneAsync("Menu");
+        SceneManager.LoadSceneAsync("Instructions");
     }
 }
