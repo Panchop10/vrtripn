@@ -51,7 +51,7 @@ public class EnableVRSettings : MonoBehaviour
         }
     }
 
-    IEnumerator SwitchToNOVR()
+    public static void SwitchToNOVR()
     {
         //https: //github.com/googlevr/gvr-unity-sdk/issues/826
         // Device names are lowercase, as returned by `XRSettings.supportedDevices`.
@@ -61,12 +61,12 @@ public class EnableVRSettings : MonoBehaviour
         // this is slightly better;
         //string[] DaydreamDevices = new string[] { "daydream", "cardboard" };
         //XRSettings.LoadDeviceByName(DaydreamDevices);
-        if (UnityEngine.XR.XRSettings.loadedDeviceName != "cardboard")
+        if (UnityEngine.XR.XRSettings.loadedDeviceName == "cardboard")
         {
-            XRSettings.LoadDeviceByName("cardboard");
+            XRSettings.LoadDeviceByName("");
 
             // Must wait one frame after calling `XRSettings.LoadDeviceByName()`.
-            yield return null;
+            //yield return null;
 
             // Now it's ok to enable VR mode.
             XRSettings.enabled = false;

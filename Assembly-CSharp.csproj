@@ -194,6 +194,7 @@
     <Compile Include="Assets\Scripts\RegisterScripts\LoginBack.cs" />
     <Compile Include="Assets\Scripts\RegisterScripts\RegisterUser.cs" />
     <Compile Include="Assets\Scripts\User.cs" />
+    <Compile Include="Assets\Scripts\VerticalOrientation.cs" />
     <Compile Include="Assets\Scripts\VideoController.cs" />
     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Engine\GameViewSize.cs" />
     <Compile Include="Assets\Vimeo\Scripts\Config\PlayerSettings.cs" />

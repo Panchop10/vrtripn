@@ -4,6 +4,7 @@ using UnityEngine;
 using Firebase;
 using Firebase.Database;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LoadMenu : MonoBehaviour
 {
@@ -43,6 +44,12 @@ public class LoadMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            // close icon pressed, place appropriate code here
+            SceneManager.LoadSceneAsync("Instructions");
+            EnableVRSettings.SwitchToNOVR();
+        }
+
     }
 }

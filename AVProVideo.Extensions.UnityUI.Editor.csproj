@@ -66,11 +66,11 @@
   <ItemGroup>
     <Compile Include="Assets\AVProVideo\Extensions\UnityUI\Editor\DisplayUGUIEditor.cs" />
     <None Include="Assets\AVProVideo\Extensions\UnityUI\Editor\_AVProVideo.Extensions.UnityUI.Editor.asmdef" />
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
