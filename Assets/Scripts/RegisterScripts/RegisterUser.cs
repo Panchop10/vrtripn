@@ -63,6 +63,12 @@ public class RegisterUser : MonoBehaviour
             errorText.text = "Passwords do no match.";
             registerButton.interactable = true;
         }
+        else if (pwdField.text.Length < 6)
+        {
+            successText.text = "";
+            errorText.text = "Passwords must have at least 6 characters";
+            registerButton.interactable = true;
+        }
         else {
             try
             {
