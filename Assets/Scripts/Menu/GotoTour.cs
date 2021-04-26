@@ -4,16 +4,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GotoScene : MonoBehaviour
+public class GotoTour : MonoBehaviour
 {
     private float timer;
-    private float timerRef;
 
     private bool startTimer;
-    
+    public static Tour activeTour;
+
     [SerializeField]
-    private string sceneName;
-    //private string scene2;
+    private int Tour;
 
     private void Update()
     {
@@ -23,32 +22,17 @@ public class GotoScene : MonoBehaviour
             
             if (timer >= 2.0f)
             {
-                SceneManager.LoadScene(sceneName);
+                activeTour = MenuGetData.tours[Tour] as Tour;
+                SceneManager.LoadScene("Tour");
             }
-            //Debug.Log("Timer is " + timer);
         }
         
-    }
-
-    public void NextScene(string sceneName)
-    {
-        SceneManager.LoadSceneAsync(sceneName);
-        //Debug.Log(scene2);
     }
 
     public void EnableDelay()
     {
         startTimer = true;
     }
-    
-    /*public void DelayGotoScene(string newScene)
-    {
-        if (timer >= 2.5f)
-        {
-            NextScene(newScene);
-            Debug.Log("Method Timer = " + timer);
-        }
-    }*/
 
     public void DisableDelay()
     {

@@ -6,17 +6,18 @@ ScriptsOnlyBuild:
     - RenderHeads.Media.AVProVideo.MediaReference
     - RenderHeads.Media.AVProVideo.UpdateMultiPassStereo
     Assembly-CSharp.dll:
+    - CloseButtonCardboard
     - DisableVRReload
     - EnableVRSettings
-    - GotoScene
+    - GotoTour
     - GvrEditorEmulator
     - GvrPointerInputModule
     - GvrReticlePointer
     - InstructionsChangeScene
-    - LoadMenu
     - LoadVideoFirebase
     - LoginBack
     - LoginProcess
+    - MenuGetData
     - RegisterUser
     - SeekSlider
     - Signup
@@ -49,89 +50,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/360Scene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 92
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 10140}
-    - Class: 114
-      Script: {instanceID: 10258}
-    - Class: 114
-      Script: {instanceID: 10434}
-    - Class: 114
-      Script: {instanceID: 10522}
-    - Class: 114
-      Script: {instanceID: 10692}
-    - Class: 114
-      Script: {instanceID: 10986}
-    - Class: 114
-      Script: {instanceID: 11108}
-    - Class: 114
-      Script: {instanceID: 11260}
-    - Class: 114
-      Script: {instanceID: 11362}
-    - Class: 114
-      Script: {instanceID: 11416}
-    - Class: 114
-      Script: {instanceID: 11500}
-    - Class: 114
-      Script: {instanceID: 11798}
-    - Class: 114
-      Script: {instanceID: 11834}
-    - Class: 114
-      Script: {instanceID: 12074}
-    - Class: 114
-      Script: {instanceID: 12098}
-    - Class: 114
-      Script: {instanceID: 12100}
-    - Class: 114
-      Script: {instanceID: 12148}
-    - Class: 114
-      Script: {instanceID: 12584}
-    - Class: 114
-      Script: {instanceID: 12588}
-    - Class: 114
-      Script: {instanceID: 12620}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/Instructions.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -267,7 +185,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12730}
     - Class: 114
-      Script: {instanceID: 16222}
+      Script: {instanceID: 16214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -330,6 +248,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11500}
     - Class: 114
+      Script: {instanceID: 11522}
+    - Class: 114
       Script: {instanceID: 11798}
     - Class: 114
       Script: {instanceID: 12074}
@@ -338,11 +258,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12292}
-    - Class: 114
       Script: {instanceID: 12588}
     - Class: 114
       Script: {instanceID: 12620}
+    - Class: 114
+      Script: {instanceID: 17160}
+    - Class: 114
+      Script: {instanceID: 19426}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -422,6 +344,89 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
+    Assets/Scenes/Tour.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 92
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 10140}
+    - Class: 114
+      Script: {instanceID: 10258}
+    - Class: 114
+      Script: {instanceID: 10434}
+    - Class: 114
+      Script: {instanceID: 10522}
+    - Class: 114
+      Script: {instanceID: 10692}
+    - Class: 114
+      Script: {instanceID: 10986}
+    - Class: 114
+      Script: {instanceID: 11108}
+    - Class: 114
+      Script: {instanceID: 11260}
+    - Class: 114
+      Script: {instanceID: 11362}
+    - Class: 114
+      Script: {instanceID: 11416}
+    - Class: 114
+      Script: {instanceID: 11500}
+    - Class: 114
+      Script: {instanceID: 11798}
+    - Class: 114
+      Script: {instanceID: 11834}
+    - Class: 114
+      Script: {instanceID: 12074}
+    - Class: 114
+      Script: {instanceID: 12098}
+    - Class: 114
+      Script: {instanceID: 12100}
+    - Class: 114
+      Script: {instanceID: 12148}
+    - Class: 114
+      Script: {instanceID: 12584}
+    - Class: 114
+      Script: {instanceID: 12588}
+    - Class: 114
+      Script: {instanceID: 12620}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -465,12 +470,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 874d83e8d9a4901aa1f17f1b8cb5edce
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoginAction
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -857,10 +856,10 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: d91fcd9ac7bd86d3d771dd6171620fad
+      Hash: 5bb79970cf7c3f72ef1468a2f888eaf6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GotoScene
+    className: GotoTour
   - hash:
       serializedVersion: 2
       Hash: 47b386b944004c4742bea9f62e7ab644
@@ -1187,12 +1186,6 @@ ScriptsOnlyBuild:
     className: ScrubberEvents
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoadMenu
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1289,7 +1282,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 9169a8be717ea924dc55ddbb80a3fa80
+      Hash: f5555383fb7eb923bf84b480cd8331d0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LoadVideoFirebase
@@ -1425,11 +1418,23 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 019bd9160cdbf3fb3eaf8abdeeabeca7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuGetData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloseButtonCardboard
   platform: 13
   scenePathNames:
   - Assets/Scenes/Login.unity
   - Assets/Scenes/Menu.unity
-  - Assets/Scenes/360Scene.unity
+  - Assets/Scenes/Tour.unity
   - Assets/Scenes/Register.unity
   - Assets/Scenes/Instructions.unity
   playerPath: C:/Users/Panchop/Downloads/VRTripn_New (1) 10-05/VRTripn_New/Build/v0.10.4.apk

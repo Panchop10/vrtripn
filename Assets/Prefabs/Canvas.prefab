@@ -186,7 +186,6 @@ GameObject:
   - component: {fileID: 5859436816988220969}
   - component: {fileID: 5859436816988220968}
   - component: {fileID: 2797737606879697633}
-  - component: {fileID: 1767381269422299187}
   m_Layer: 5
   m_Name: Stop_Button
   m_TagString: Untagged
@@ -343,7 +342,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1767381269422299187}
+        - m_Target: {fileID: 0}
           m_MethodName: EnableDelay
           m_Mode: 1
           m_Arguments:
@@ -358,7 +357,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1767381269422299187}
+        - m_Target: {fileID: 0}
           m_MethodName: DisableDelay
           m_Mode: 1
           m_Arguments:
@@ -369,19 +368,6 @@ MonoBehaviour:
             m_StringArgument: Menu
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &1767381269422299187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5859436816988220970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea0697075f8bb4746bd17bcd5937ed91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Menu
 --- !u!1 &5859436817515276535
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,7 +641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea0697075f8bb4746bd17bcd5937ed91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  Tour: 0
 --- !u!114 &8933216173698652720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,6 +655,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vimeoPlayer: {fileID: 0}
+  mediaPlayer: {fileID: 0}
+  test: {fileID: 0}
 --- !u!114 &-3555515331919573587
 MonoBehaviour:
   m_ObjectHideFlags: 0

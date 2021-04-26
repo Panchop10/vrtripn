@@ -1,6 +1,7 @@
 ﻿using RenderHeads.Media.AVProVideo;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class LoadVideoFirebase : MonoBehaviour
@@ -9,9 +10,13 @@ public class LoadVideoFirebase : MonoBehaviour
     public MediaPlayer _mediaplayer;
     public MediaPlayer _mediaplayeraudio;
 
+    public TMP_Text labelText;
+
     // Start is called before the first frame update
     void Start()
     {
+        labelText.text = GotoTour.activeTour.title;
+
         MediaPathType mpt = new MediaPathType();
         _mediaplayer.OpenMedia(new MediaPath("https://player.vimeo.com/external/548171631.hd.mp4?s=6372b5843dfb4dd17d093978ffca9c94b5ab13d4&profile_id=175", mpt));
         _mediaplayer.AudioMuted = true;
