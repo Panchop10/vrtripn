@@ -14,19 +14,15 @@ ScriptsOnlyBuild:
     - GvrPointerInputModule
     - GvrReticlePointer
     - InstructionsChangeScene
+    - LoadScenes
     - LoadVideoFirebase
     - LoginBack
     - LoginProcess
     - MenuGetData
     - RegisterUser
-    - SeekSlider
     - Signup
     - VerticalOrientation
     - VideoController
-    - Vimeo.Controls.Player.PlayButton
-    - Vimeo.Player.VimeoPlayer
-    - Vimeo.Recorder.VimeoRecorder
-    - Vimeo.Utils.AutoResize
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
@@ -47,8 +43,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.RectMask2D
-    - UnityEngine.UI.Slider
-    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Instructions.unity:
     - Class: 1
@@ -76,19 +70,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10434}
     - Class: 114
-      Script: {instanceID: 10986}
+      Script: {instanceID: 10992}
     - Class: 114
-      Script: {instanceID: 11500}
+      Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12384}
+      Script: {instanceID: 12396}
     - Class: 114
-      Script: {instanceID: 12674}
+      Script: {instanceID: 12686}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -112,19 +106,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -139,53 +125,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10140}
     - Class: 114
-      Script: {instanceID: 10352}
-    - Class: 114
-      Script: {instanceID: 10394}
-    - Class: 114
       Script: {instanceID: 10434}
     - Class: 114
       Script: {instanceID: 10474}
     - Class: 114
-      Script: {instanceID: 10516}
+      Script: {instanceID: 10732}
     - Class: 114
-      Script: {instanceID: 10730}
+      Script: {instanceID: 10992}
     - Class: 114
-      Script: {instanceID: 10974}
+      Script: {instanceID: 11024}
     - Class: 114
-      Script: {instanceID: 10986}
+      Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 11016}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 11500}
+      Script: {instanceID: 11812}
     - Class: 114
-      Script: {instanceID: 11522}
+      Script: {instanceID: 11826}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 11804}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 12390}
     - Class: 114
-      Script: {instanceID: 11912}
+      Script: {instanceID: 12424}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 12496}
     - Class: 114
-      Script: {instanceID: 12148}
-    - Class: 114
-      Script: {instanceID: 12378}
-    - Class: 114
-      Script: {instanceID: 12412}
-    - Class: 114
-      Script: {instanceID: 12484}
-    - Class: 114
-      Script: {instanceID: 12674}
-    - Class: 114
-      Script: {instanceID: 12726}
-    - Class: 114
-      Script: {instanceID: 12730}
-    - Class: 114
-      Script: {instanceID: 16214}
+      Script: {instanceID: 12686}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -238,33 +206,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10434}
     - Class: 114
-      Script: {instanceID: 10692}
+      Script: {instanceID: 10690}
     - Class: 114
-      Script: {instanceID: 10986}
+      Script: {instanceID: 10694}
     - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 10992}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 11268}
     - Class: 114
-      Script: {instanceID: 11500}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11522}
+      Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11530}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 12048}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 12588}
+      Script: {instanceID: 12112}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 17160}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 19426}
+      Script: {instanceID: 12632}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -313,21 +281,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10474}
     - Class: 114
-      Script: {instanceID: 10730}
+      Script: {instanceID: 10732}
     - Class: 114
-      Script: {instanceID: 10986}
+      Script: {instanceID: 10992}
     - Class: 114
-      Script: {instanceID: 11500}
+      Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 11610}
+      Script: {instanceID: 11618}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12674}
+      Script: {instanceID: 12686}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -378,37 +346,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10522}
     - Class: 114
-      Script: {instanceID: 10692}
+      Script: {instanceID: 10694}
     - Class: 114
-      Script: {instanceID: 10986}
+      Script: {instanceID: 10992}
     - Class: 114
-      Script: {instanceID: 11108}
+      Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 11268}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11370}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11500}
+      Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 11834}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 11996}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 12048}
     - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12110}
     - Class: 114
-      Script: {instanceID: 12584}
+      Script: {instanceID: 12112}
     - Class: 114
-      Script: {instanceID: 12588}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12596}
+    - Class: 114
+      Script: {instanceID: 12600}
+    - Class: 114
+      Script: {instanceID: 12632}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -475,6 +447,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
+    className: Scene
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
     className: DisableVRReload
   - hash:
       serializedVersion: 2
@@ -488,12 +466,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 78fb83353808251134c558564b669fa7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Player
-    className: PlayerSettings
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -518,12 +490,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
-  - hash:
-      serializedVersion: 2
-      Hash: 93c42354cb5bc67c47fc5b3ccca3711c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Controls.Player
-    className: PlayButton
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -574,12 +540,6 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: d4c7be4ca0dd4a26cba39e9a4923bc46
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo
-    className: VimeoSettings
-  - hash:
-      serializedVersion: 2
       Hash: 60eb065cb8ea340f8c72045b999a032f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.VideoDemo
@@ -592,13 +552,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: d654a46709fb7f5127b65fd923fc851d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Player
-    className: VimeoPlayer
-  - hash:
-      serializedVersion: 2
-      Hash: a159cee1c6db0b9641ed8a429d8bf6a9
+      Hash: bfdccfd0e1a26736f73824a105d3ba0f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: VideoController
@@ -614,12 +568,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 5e2c24b558f7a31652d388455fe569e6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: RecorderController
   - hash:
       serializedVersion: 2
       Hash: 5d46189bfca968b9b26fd60c37765c3f
@@ -664,6 +612,12 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
+      Hash: 019bd9160cdbf3fb3eaf8abdeeabeca7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuGetData
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -704,6 +658,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.Demos
     className: DemoSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Audio
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -754,18 +714,6 @@ ScriptsOnlyBuild:
     className: ToggleAction
   - hash:
       serializedVersion: 2
-      Hash: 274d5b8b59d14a24137035464da03d2c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: EncoderManager
-  - hash:
-      serializedVersion: 2
-      Hash: 4a6f70ea6b456d250db7048ad7fa4425
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Utils
-    className: AutoResize
-  - hash:
-      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -806,18 +754,6 @@ ScriptsOnlyBuild:
     assemblyName: AVProVideo.Runtime.dll
     namespaceName: RenderHeads.Media.AVProVideo
     className: UpdateMultiPassStereo
-  - hash:
-      serializedVersion: 2
-      Hash: 1d152610a8ea3714c447125359762657
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: ScreenInput
-  - hash:
-      serializedVersion: 2
-      Hash: 1d734afcf7365e4e5d8c55cc98ba07dc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Player
-    className: VideoController
   - hash:
       serializedVersion: 2
       Hash: bffcadb9797d8be363f802c42841d9a7
@@ -868,22 +804,10 @@ ScriptsOnlyBuild:
     className: GvrAudioListener
   - hash:
       serializedVersion: 2
-      Hash: 1d152610a8ea3714c447125359762657
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: AudioInput
-  - hash:
-      serializedVersion: 2
       Hash: b49747b312c360680a49f9aeaa8ea3ce
     assemblyName: AVProVideo.Demos.dll
     namespaceName: RenderHeads.Media.AVProVideo.Demos
     className: MediaPlayerUI
-  - hash:
-      serializedVersion: 2
-      Hash: 1d152610a8ea3714c447125359762657
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: VideoInput
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -896,12 +820,6 @@ ScriptsOnlyBuild:
     assemblyName: AVProVideo.Runtime.dll
     namespaceName: RenderHeads.Media.AVProVideo
     className: MediaReference
-  - hash:
-      serializedVersion: 2
-      Hash: d58c400e9b9070ee3bca804fff19d742
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: RecorderSettings
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -988,18 +906,6 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 2eaa1f7f874c56a08fecf02bff6ca8e0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo
-    className: VideoChunk
-  - hash:
-      serializedVersion: 2
-      Hash: b990082f9e2edc9e3880a84ee07f42eb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: RenderTextureInput
-  - hash:
-      serializedVersion: 2
       Hash: bf3913f0d6c694bf20e1d681c79a4993
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.HelloVR
@@ -1028,12 +934,6 @@ ScriptsOnlyBuild:
     assemblyName: AVProVideo.Runtime.dll
     namespaceName: RenderHeads.Media.AVProVideo
     className: AudioOutput
-  - hash:
-      serializedVersion: 2
-      Hash: dd7fb75a73dd02aded44d65f60ce4665
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: VimeoPublisher
   - hash:
       serializedVersion: 2
       Hash: e1300922cc039f41ab46a47f4cb05898
@@ -1072,18 +972,6 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 22f681ce354b2774cdb683e76dac09e1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo
-    className: VimeoUploader
-  - hash:
-      serializedVersion: 2
-      Hash: b89c3b4fe273d4d15fc4310851440231
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SeekSlider
-  - hash:
-      serializedVersion: 2
       Hash: 1cbb684877139a8fcd5903f27462e898
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1099,6 +987,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
+    className: LoadScenes
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
     className: GvrRecenterOnlyController
   - hash:
       serializedVersion: 2
@@ -1106,6 +1000,12 @@ ScriptsOnlyBuild:
     assemblyName: AVProVideo.Demos.dll
     namespaceName: RenderHeads.Media.AVProVideo.Demos
     className: LookAround360
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloseButtonCardboard
   - hash:
       serializedVersion: 2
       Hash: 0aefaa69b3866ee3ae66f07ddb7f44ad
@@ -1172,12 +1072,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrControllerVisual
-  - hash:
-      serializedVersion: 2
-      Hash: 1d152610a8ea3714c447125359762657
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: CameraInput
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1262,12 +1156,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
-  - hash:
-      serializedVersion: 2
-      Hash: 52ca14e8d3d99999628e5eb44fabddfb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo
-    className: VimeoApi
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1384,12 +1272,6 @@ ScriptsOnlyBuild:
     className: GvrXREventsSubscriber
   - hash:
       serializedVersion: 2
-      Hash: 37e07257d3bfe5f09699f72a5a4b3d92
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Vimeo.Recorder
-    className: VimeoRecorder
-  - hash:
-      serializedVersion: 2
       Hash: 7072231382eb3c4871b3dd75ad0227e1
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1418,18 +1300,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 019bd9160cdbf3fb3eaf8abdeeabeca7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MenuGetData
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CloseButtonCardboard
   platform: 13
   scenePathNames:
   - Assets/Scenes/Login.unity

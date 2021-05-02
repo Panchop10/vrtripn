@@ -28,7 +28,8 @@ public class FirebaseGetTours
                           tour.Child("is_daytime").Value.ToString(),
                           tour.Child("is_outdoor").Value.ToString(),
                           tour.Child("type").Value.ToString(),
-                          tour.Child("duration").Value.ToString()
+                          tour.Child("duration").Value.ToString(),
+                          tour.Child("slug_name").Value.ToString()
                           );
 
                       //Debug.Log(tour);

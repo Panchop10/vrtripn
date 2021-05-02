@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
-using Vimeo.Player;
 using RenderHeads.Media.AVProVideo;
 
 public class VideoController : MonoBehaviour
 {
     //private VideoPlayer _videoPlayer;
 
-    public VimeoPlayer vimeoPlayer;
+    //public VimeoPlayer vimeoPlayer;
     public MediaPlayer mediaPlayer;
     public VideoPlayer test;
 

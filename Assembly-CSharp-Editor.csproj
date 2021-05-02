@@ -79,12 +79,6 @@
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
-    <Compile Include="Assets\Vimeo\Scripts\Editor\BaseEditor.cs" />
-    <Compile Include="Assets\Vimeo\Scripts\Editor\VimeoBuildProcessor.cs" />
-    <Compile Include="Assets\Vimeo\Scripts\Editor\VimeoPlayerEditor.cs" />
-    <Compile Include="Assets\Vimeo\Scripts\Editor\VimeoPlugin.cs" />
-    <Compile Include="Assets\Vimeo\Scripts\Editor\VimeoPluginProcessor.cs" />
-    <Compile Include="Assets\Vimeo\Scripts\Editor\VimeoRecorderEditor.cs" />
     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.165_manifest.txt" />
     <None Include="Assets\Firebase\Editor\FirebaseAuth_version-7.2.0_manifest.txt" />
     <None Include="Assets\Firebase\Editor\FirebaseDatabase_version-7.2.0_manifest.txt" />

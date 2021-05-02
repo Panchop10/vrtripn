@@ -11,18 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 63715b54c9abcfe439e4be131e14ad5c
-  - enabled: 0
-    path: Assets/Scenes/360Player-Dublin1.unity
-    guid: ac01ee5e9895334459017b82a1a4ce05
-  - enabled: 0
-    path: Assets/Scenes/360Player-Dublin2.unity
-    guid: 123185afd2607554d97b1a72d81c0e2a
-  - enabled: 0
-    path: Assets/Scenes/360Player-Dublin3.unity
-    guid: 7ed368ab2e707ea489f26cc5f759612b
-  - enabled: 0
-    path: Assets/Vimeo/Scenes/360Player.unity
-    guid: 5a9caef1732ca1947907944bd4c31361
   - enabled: 1
     path: Assets/Scenes/Tour.unity
     guid: 006374c223d57514e8b9a55b0b643796
