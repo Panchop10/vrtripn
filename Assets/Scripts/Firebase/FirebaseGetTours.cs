@@ -18,6 +18,7 @@ public class FirebaseGetTours
               else if (task.IsCompleted)
               {
                   DataSnapshot toursSnapshot = task.Result;
+                  MenuGetData.tours = new ArrayList();
                   foreach (DataSnapshot tour in toursSnapshot.Children){
                       Tour tourAux = new Tour(
                           tour.Child("title").Value.ToString(),

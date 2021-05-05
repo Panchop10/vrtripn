@@ -13,6 +13,7 @@ public class MenuGetData : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("@@@@@@@@@@@@@@@@@@@@@@");
         try
         {
             FirebaseGetTours.getTours(this);
@@ -21,6 +22,7 @@ public class MenuGetData : MonoBehaviour
         {
             Debug.Log(e.Message);
         }
+
     }
 
     // Update is called once per frame

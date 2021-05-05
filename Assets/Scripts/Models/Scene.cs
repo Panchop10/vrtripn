@@ -1,18 +1,37 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Scene : MonoBehaviour
+[Serializable]
+public class Scene
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public string id;
+    public string title;
+    public string description;
+    public string link;
+    public string image_link;
+    public string tags;
+    public ArrayList audios;
+
+    public Scene(string id, string title, string description, string link, string image_link, string tags) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.link = link;
+        this.image_link = image_link;
+        this.tags = tags;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public ArrayList getAudios() {
+        return this.audios;
+    }
+
+    public void addAudio(Audio audio) {
+        this.audios.Add(audio);
+    }
+
+    public string toString() {
+        return "" + this.id + " " + this.title;
     }
 }

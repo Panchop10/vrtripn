@@ -16,6 +16,7 @@ public class Tour
     public string type;
     public string duration;
     public string slug_name;
+    private ArrayList scenes;
 
     public Tour(string title,
             string description,
@@ -39,6 +40,16 @@ public class Tour
         this.type = type;
         this.duration = duration;
         this.slug_name = slug_name;
+    }
+
+    //get scenes
+    public ArrayList getScenes() {
+        return scenes;
+    }
+
+    //add scenes
+    public void addScene(Scene scene) {
+        this.scenes.Add(scene);
     }
 
     public string toString() {

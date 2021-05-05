@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class LoadScenes : MonoBehaviour
 {
+    public static ArrayList scenes;
+
     // Start is called before the first frame update
     void Start()
     {
         try
         {
+            Debug.Log("******************* 1");
             FirebaseGetScenes.getScenes(this);
+            Debug.Log("******************* 5");
         }
         catch (System.Exception e)
         {

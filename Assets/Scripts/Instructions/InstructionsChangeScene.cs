@@ -18,6 +18,6 @@ public class InstructionsChangeScene : MonoBehaviour
     }
     public void GoToMenu()
     {
-        SceneManager.LoadSceneAsync("Menu");
+        SceneManager.LoadScene("Menu");
     }
 }

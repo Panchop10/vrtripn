@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Audio : MonoBehaviour
+public class Audio
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public string id;
+    public string audio_link;
+    public string language;
+    public string tags;
+
+    public Audio(string id, string audio_link, string language, string tags) {
+        this.id = id;
+        this.audio_link = audio_link;
+        this.language = language;
+        this.tags = tags;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

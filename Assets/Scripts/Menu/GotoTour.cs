@@ -11,8 +11,7 @@ public class GotoTour : MonoBehaviour
     private bool startTimer;
     public static Tour activeTour;
 
-    [SerializeField]
-    private int Tour;
+    public String tour;
 
     private void Update()
     {
@@ -22,7 +21,7 @@ public class GotoTour : MonoBehaviour
             
             if (timer >= 2.0f)
             {
-                activeTour = MenuGetData.tours[Tour] as Tour;
+                activeTour = MenuGetData.tours[int.Parse(tour)] as Tour;
                 SceneManager.LoadScene("Tour");
             }
         }
