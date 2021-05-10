@@ -13,7 +13,6 @@ public class MenuGetData : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("@@@@@@@@@@@@@@@@@@@@@@");
         try
         {
             FirebaseGetTours.getTours(this);

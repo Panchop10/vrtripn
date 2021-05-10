@@ -49,11 +49,11 @@ public class LoadVideoFirebase : MonoBehaviour
 
     }
 
-//    void OnMediaPlayerFinished(MediaPlayer mp)
-//  {
-//    Print("Follow-up of the end event trigger");
-//   isPlaying = false;
-// }
+    void OnMediaPlayerFinished(MediaPlayer mp)
+  {
+    //Print("Follow-up of the end event trigger");
+      // isPlaying = false;
+ }
 
 }
 

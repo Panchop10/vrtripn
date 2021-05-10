@@ -15,7 +15,6 @@ ScriptsOnlyBuild:
     - GvrReticlePointer
     - InstructionsChangeScene
     - LoadScenes
-    - LoadVideoFirebase
     - LoginBack
     - LoginProcess
     - MenuGetData
@@ -375,8 +374,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12062}
     - Class: 114
       Script: {instanceID: 12110}
-    - Class: 114
-      Script: {instanceID: 12540}
     - Class: 114
       Script: {instanceID: 12544}
     - Class: 114
@@ -972,7 +969,7 @@ ScriptsOnlyBuild:
     className: GvrHeadset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 0cd12fdd5a3992064422a34bf43b9215
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LoadScenes
