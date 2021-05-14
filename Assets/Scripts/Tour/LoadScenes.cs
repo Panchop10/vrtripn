@@ -10,8 +10,8 @@ public class LoadScenes : MonoBehaviour
 
     public static ArrayList scenes = new ArrayList();
     public bool updated;
-    private bool isVideoPlaying;
-    private bool isAudioPlaying;
+    private bool isVideoPlaying = true;
+    private bool isAudioPlaying = true;
     private int counterScene = 0;
 
     // Start is called before the first frame update
@@ -31,20 +31,44 @@ public class LoadScenes : MonoBehaviour
         _mediaplayeraudio.Events.AddListener(OnAudioPlayerEvent);
 
         // mute video
-        _mediaplayer.AudioMuted = true;
+        //_mediaplayer.AudioMuted = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if ( updated ) {
+        // load first scene
+        if ( !updated ) {
             MediaPathType mpt = new MediaPathType();
 
             Scene newScene = scenes[counterScene] as Scene;
             counterScene++;
 
+            //get audio from scene object
+            string audio_link = (newScene.getAudios()[0] as Audio).audio_link;
+
             _mediaplayer.OpenMedia(new MediaPath(newScene.link, mpt));
-            //_mediaplayeraudio.OpenMedia(new MediaPath("https://cdn.civitatis.com/audioguias/roma/FontanadiTrevi.mp3", mpt));
+            _mediaplayeraudio.OpenMedia(new MediaPath(audio_link, mpt));
+
+
+            updated = true;
+        }
+        
+
+        // load scenes after the first one finishes
+        if (isAudioPlaying == false && scenes.Count > counterScene) {
+            MediaPathType mpt = new MediaPathType();
+
+            Scene newScene = scenes[counterScene] as Scene;
+            counterScene++;
+
+            //get audio from scene object
+            string audio_link = (newScene.getAudios()[0] as Audio).audio_link;
+
+            _mediaplayer.OpenMedia(new MediaPath(newScene.link, mpt));
+            _mediaplayeraudio.OpenMedia(new MediaPath(audio_link, mpt));
+
+            isAudioPlaying = true;
         }
     }
 

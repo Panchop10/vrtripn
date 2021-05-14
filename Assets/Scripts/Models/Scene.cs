@@ -12,7 +12,7 @@ public class Scene
     public string link;
     public string image_link;
     public string tags;
-    public ArrayList audios;
+    public ArrayList audios = new ArrayList();
 
     public Scene(string id, string title, string description, string link, string image_link, string tags) {
         this.id = id;

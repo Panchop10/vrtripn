@@ -199,6 +199,7 @@
     <Compile Include="Assets\Scripts\Models\User.cs" />
     <Compile Include="Assets\Scripts\RegisterScripts\LoginBack.cs" />
     <Compile Include="Assets\Scripts\RegisterScripts\RegisterUser.cs" />
+    <Compile Include="Assets\Scripts\StopVideo.cs" />
     <Compile Include="Assets\Scripts\Tour\LoadScenes.cs" />
     <Compile Include="Assets\Scripts\VerticalOrientation.cs" />
     <Compile Include="Assets\Scripts\VideoController.cs" />

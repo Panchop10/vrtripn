@@ -240,7 +240,7 @@ MonoBehaviour:
   _mediaReference: {fileID: 11400000, guid: 6270438318e8c9f4da5ff28f426d52ed, type: 2}
   _mediaPath:
     _pathType: 0
-    _path: https://player.vimeo.com/external/549421514.hd.mp4?s=0f5004533ac9ea63c666c17dbfd778d05b56f5a3&profile_id=175
+    _path: https://player.vimeo.com/external/549421514.m3u8?s=6d2a949dd140edf324f89458cf204877f5c4965f
   _fallbackMediaHints:
     transparency: 0
     alphaPacking: 0
@@ -248,7 +248,7 @@ MonoBehaviour:
   _autoOpen: 1
   _autoPlayOnStart: 1
   _loop: 0
-  _audioVolume: 1
+  _audioVolume: 0.14285715
   _audioBalance: 0
   _audioMuted: 0
   _playbackRate: 1
@@ -847,6 +847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mediaPlayer: {fileID: 932941964}
+  audioMediaPlayer: {fileID: 2007520968}
   test: {fileID: 0}
 --- !u!1 &2007520967
 GameObject:
@@ -881,7 +882,7 @@ MonoBehaviour:
   _mediaReference: {fileID: 0}
   _mediaPath:
     _pathType: 0
-    _path: https://cdn.civitatis.com/audioguias/roma/ForoRomano.mp3
+    _path: https://firebasestorage.googleapis.com/v0/b/vr-tripn.appspot.com/o/audio_tours%2Fmolly-malone-audio-final.mp3?alt=media&token=93615379-c126-4df8-84ac-5eefb3ea233c
   _fallbackMediaHints:
     transparency: 0
     alphaPacking: 0
@@ -1594,19 +1595,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &3074215245228838018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3074215245228838024}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea0697075f8bb4746bd17bcd5937ed91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tour: 
 --- !u!224 &3074215245228838020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1685,9 +1673,9 @@ GameObject:
   - component: {fileID: 3074215245228838023}
   - component: {fileID: 3074215245228838022}
   - component: {fileID: 3074215245228838025}
-  - component: {fileID: 3074215245228838018}
   - component: {fileID: 1843809852}
   - component: {fileID: 3841972230393813409}
+  - component: {fileID: 3074215245228838026}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1712,6 +1700,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3074215245228838026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3074215245228838024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d0b5e76a4df933439d7df542b788cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Menu
 --- !u!114 &3074215245256711766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2205,7 +2206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3074215245228838018}
+      - m_Target: {fileID: 3074215245228838026}
         m_MethodName: NextScene
         m_Mode: 5
         m_Arguments:
@@ -2370,7 +2371,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 3074215245228838018}
+        - m_Target: {fileID: 3074215245228838026}
           m_MethodName: DelayGotoScene
           m_Mode: 5
           m_Arguments:
@@ -2392,7 +2393,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 3074215245228838026}
           m_MethodName: EnableDelay
           m_Mode: 1
           m_Arguments:
@@ -2407,7 +2408,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 3074215245228838026}
           m_MethodName: DisableDelay
           m_Mode: 1
           m_Arguments:

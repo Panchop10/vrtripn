@@ -28,6 +28,18 @@ public class FirebaseGetScenes
                         scene.Child("tags").Value.ToString()
                         );
 
+                      foreach (DataSnapshot audio in scene.Child("audios").Children){
+                          Debug.Log(audio);
+                          Audio audioAux = new Audio(
+                              audio.Child("id").Value.ToString(),
+                              audio.Child("audio_link").Value.ToString(),
+                              audio.Child("language").Value.ToString(),
+                              audio.Child("tags").Value.ToString()
+                              );
+                          sceneAux.addAudio(audioAux);
+                      }
+
+
                       Debug.Log(sceneAux.toString());
                       LoadScenes.scenes.Add(sceneAux);
 

@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 using RenderHeads.Media.AVProVideo;
+using UnityEngine.SceneManagement;
 
 public class VideoController : MonoBehaviour
 {
-    //private VideoPlayer _videoPlayer;
-
-    //public VimeoPlayer vimeoPlayer;
     public MediaPlayer mediaPlayer;
+    public MediaPlayer audioMediaPlayer;
     public VideoPlayer test;
 
 
@@ -17,7 +16,7 @@ public class VideoController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //_videoPlayer = GetComponent<VideoPlayer>();
+
     }
 
     // Update is called once per frame
@@ -35,18 +34,12 @@ public class VideoController : MonoBehaviour
     {
         coroutine = PauseVimeoVideo();
         StartCoroutine(coroutine);
-        //_videoPlayer.Pause();
-        /*vimeoPlayer.Pause();
-        Debug.Log("Paused");*/
     }
     
     public void PlayVideo()
     {
         coroutine = PlayVimeoVideo();
         StartCoroutine(coroutine);
-        //_videoPlayer.Play();
-        /*vimeoPlayer.Play();
-        Debug.Log("Played");*/
     }
 
     public void DisableVideoPause()
@@ -64,6 +57,7 @@ public class VideoController : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 
         mediaPlayer.Pause();
+        audioMediaPlayer.Pause();
         //vimeoPlayer.Pause();
         Debug.Log("Paused");
     }
@@ -73,6 +67,7 @@ public class VideoController : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 
         mediaPlayer.Play();
+        audioMediaPlayer.Play();
         //vimeoPlayer.Play();
         Debug.Log("Played");
     }

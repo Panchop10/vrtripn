@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - MenuGetData
     - RegisterUser
     - Signup
+    - StopVideo
     - VerticalOrientation
     - VideoController
     Unity.TextMeshPro.dll:
@@ -351,8 +352,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11090}
     - Class: 114
-      Script: {instanceID: 11236}
-    - Class: 114
       Script: {instanceID: 11334}
     - Class: 114
       Script: {instanceID: 11384}
@@ -378,6 +377,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12544}
     - Class: 114
       Script: {instanceID: 12576}
+    - Class: 114
+      Script: {instanceID: 36152}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -543,7 +544,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: bfdccfd0e1a26736f73824a105d3ba0f
+      Hash: 5cdb6ce1da47c7d21fce66c63893cec5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: VideoController
@@ -1285,6 +1286,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d91fcd9ac7bd86d3d771dd6171620fad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StopVideo
   platform: 13
   scenePathNames:
   - Assets/Scenes/Login.unity
