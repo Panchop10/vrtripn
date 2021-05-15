@@ -67,11 +67,11 @@
     <Compile Include="Assets\AVProVideo\Extensions\UnityUI\Runtime\DisplayUGUI.cs" />
     <Compile Include="Assets\AVProVideo\Extensions\UnityUI\Runtime\SubtitlesUGUI.cs" />
     <None Include="Assets\AVProVideo\Extensions\UnityUI\_AVProVideo.Extensions.UnityUI.asmdef" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

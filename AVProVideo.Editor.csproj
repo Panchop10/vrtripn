@@ -98,11 +98,11 @@
     <Compile Include="Assets\AVProVideo\Editor\Scripts\SupportWindow.cs" />
     <Compile Include="Assets\AVProVideo\Editor\Scripts\VideoResolveOptionsDrawer.cs" />
     <None Include="Assets\AVProVideo\Editor\_AVProVideo.Editor.asmdef" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/Users/Panchop/Documents/GitHub/vrtripn/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>

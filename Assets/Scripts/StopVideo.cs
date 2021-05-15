@@ -21,6 +21,7 @@ public class StopVideo : MonoBehaviour
             
             if (timer >= 2.0f)
             {
+                LoadScenes.scenes = new ArrayList();
                 SceneManager.LoadScene(sceneName);
             }
         }
@@ -28,6 +29,7 @@ public class StopVideo : MonoBehaviour
 
     public void NextScene(string sceneName)
     {
+        LoadScenes.scenes = new ArrayList();
         SceneManager.LoadSceneAsync(sceneName);
     }
 
